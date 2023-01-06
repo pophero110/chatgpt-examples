@@ -9,6 +9,7 @@ import { exampleRouter } from "./routers/example";
 export const appRouter = createTRPCRouter({
   example: exampleRouter,
 });
+// export const appRouter = mergeRouters(exampleRouter);
 
 // export type definition of API
 export type AppRouter = typeof appRouter;
