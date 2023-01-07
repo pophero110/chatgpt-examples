@@ -88,7 +88,7 @@ const t = initTRPC
  * @see https://trpc.io/docs/router
  */
 export const createTRPCRouter = t.router;
-// export const mergeRouters = t.mergeRouters;
+export const mergeRouters = t.mergeRouters;
 
 /**
  * Public (unauthed) procedure
