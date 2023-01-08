@@ -1,5 +1,5 @@
 jest.mock("../src/server/openaiClient");
-import { Classification } from "../src/services/openai/classification";
+import { Classification } from "../src/services/classification";
 import { openaiClient } from "../src/server/openaiClient";
 
 //playgroud
