@@ -13,7 +13,7 @@ export default function Index() {
     transformer: superjson,
     links: [
       httpLink({
-        url: "http://localhost:3000/api/trpc",
+        url: "/api/trpc",
       }),
     ],
   });
